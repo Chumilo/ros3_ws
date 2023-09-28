@@ -1,0 +1,4 @@
+Invoking command in '/home/juan_c/ros2_ws/build/manipulator_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/juan_c/ros2_ws/build/manipulator_description -- -j4 -l4
+Invoked command in '/home/juan_c/ros2_ws/build/manipulator_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/juan_c/ros2_ws/build/manipulator_description -- -j4 -l4
+Invoking command in '/home/juan_c/ros2_ws/build/manipulator_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/juan_c/ros2_ws/build/manipulator_description
+Invoked command in '/home/juan_c/ros2_ws/build/manipulator_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/juan_c/ros2_ws/build/manipulator_description

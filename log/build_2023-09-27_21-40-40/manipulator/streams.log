@@ -1,0 +1,20 @@
+[1.531s] Invoking command in '/home/juan_c/ros2_ws/src/manipulator': PYTHONPATH=/home/juan_c/ros2_ws/build/manipulator/prefix_override:/home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manipulator build --build-base /home/juan_c/ros2_ws/build/manipulator/build install --record /home/juan_c/ros2_ws/build/manipulator/install.log --single-version-externally-managed
+[2.130s] running egg_info
+[2.132s] writing ../../build/manipulator/manipulator.egg-info/PKG-INFO
+[2.133s] writing dependency_links to ../../build/manipulator/manipulator.egg-info/dependency_links.txt
+[2.133s] writing entry points to ../../build/manipulator/manipulator.egg-info/entry_points.txt
+[2.133s] writing requirements to ../../build/manipulator/manipulator.egg-info/requires.txt
+[2.134s] writing top-level names to ../../build/manipulator/manipulator.egg-info/top_level.txt
+[2.138s] reading manifest file '../../build/manipulator/manipulator.egg-info/SOURCES.txt'
+[2.140s] writing manifest file '../../build/manipulator/manipulator.egg-info/SOURCES.txt'
+[2.141s] running build
+[2.141s] running build_py
+[2.141s] running install
+[2.142s] running install_lib
+[2.145s] running install_data
+[2.146s] running install_egg_info
+[2.150s] removing '/home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages/manipulator-0.0.0-py3.10.egg-info' (and everything under it)
+[2.151s] Copying ../../build/manipulator/manipulator.egg-info to /home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages/manipulator-0.0.0-py3.10.egg-info
+[2.152s] running install_scripts
+[2.207s] writing list of installed files to '/home/juan_c/ros2_ws/build/manipulator/install.log'
+[2.266s] Invoked command in '/home/juan_c/ros2_ws/src/manipulator' returned '0': PYTHONPATH=/home/juan_c/ros2_ws/build/manipulator/prefix_override:/home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manipulator build --build-base /home/juan_c/ros2_ws/build/manipulator/build install --record /home/juan_c/ros2_ws/build/manipulator/install.log --single-version-externally-managed

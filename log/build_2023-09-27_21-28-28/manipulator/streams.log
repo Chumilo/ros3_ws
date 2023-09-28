@@ -1,0 +1,33 @@
+[1.385s] Invoking command in '/home/juan_c/ros2_ws/src/manipulator': PYTHONPATH=/home/juan_c/ros2_ws/build/manipulator/prefix_override:/home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manipulator build --build-base /home/juan_c/ros2_ws/build/manipulator/build install --record /home/juan_c/ros2_ws/build/manipulator/install.log --single-version-externally-managed
+[1.933s] running egg_info
+[1.939s] creating ../../build/manipulator/manipulator.egg-info
+[1.939s] writing ../../build/manipulator/manipulator.egg-info/PKG-INFO
+[1.940s] writing dependency_links to ../../build/manipulator/manipulator.egg-info/dependency_links.txt
+[1.940s] writing entry points to ../../build/manipulator/manipulator.egg-info/entry_points.txt
+[1.940s] writing requirements to ../../build/manipulator/manipulator.egg-info/requires.txt
+[1.940s] writing top-level names to ../../build/manipulator/manipulator.egg-info/top_level.txt
+[1.940s] writing manifest file '../../build/manipulator/manipulator.egg-info/SOURCES.txt'
+[1.941s] reading manifest file '../../build/manipulator/manipulator.egg-info/SOURCES.txt'
+[1.943s] writing manifest file '../../build/manipulator/manipulator.egg-info/SOURCES.txt'
+[1.944s] running build
+[1.944s] running build_py
+[1.945s] creating /home/juan_c/ros2_ws/build/manipulator/build
+[1.945s] creating /home/juan_c/ros2_ws/build/manipulator/build/lib
+[1.945s] creating /home/juan_c/ros2_ws/build/manipulator/build/lib/manipulator
+[1.945s] copying manipulator/__init__.py -> /home/juan_c/ros2_ws/build/manipulator/build/lib/manipulator
+[1.946s] running install
+[1.947s] running install_lib
+[1.948s] creating /home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages/manipulator
+[1.949s] copying /home/juan_c/ros2_ws/build/manipulator/build/lib/manipulator/__init__.py -> /home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages/manipulator
+[1.950s] byte-compiling /home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages/manipulator/__init__.py to __init__.cpython-310.pyc
+[1.950s] running install_data
+[1.952s] creating /home/juan_c/ros2_ws/install/manipulator/share/ament_index
+[1.952s] creating /home/juan_c/ros2_ws/install/manipulator/share/ament_index/resource_index
+[1.952s] creating /home/juan_c/ros2_ws/install/manipulator/share/ament_index/resource_index/packages
+[1.953s] copying resource/manipulator -> /home/juan_c/ros2_ws/install/manipulator/share/ament_index/resource_index/packages
+[1.953s] copying package.xml -> /home/juan_c/ros2_ws/install/manipulator/share/manipulator
+[1.954s] running install_egg_info
+[1.958s] Copying ../../build/manipulator/manipulator.egg-info to /home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages/manipulator-0.0.0-py3.10.egg-info
+[1.960s] running install_scripts
+[2.003s] writing list of installed files to '/home/juan_c/ros2_ws/build/manipulator/install.log'
+[2.048s] Invoked command in '/home/juan_c/ros2_ws/src/manipulator' returned '0': PYTHONPATH=/home/juan_c/ros2_ws/build/manipulator/prefix_override:/home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/manipulator build --build-base /home/juan_c/ros2_ws/build/manipulator/build install --record /home/juan_c/ros2_ws/build/manipulator/install.log --single-version-externally-managed

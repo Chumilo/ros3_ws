@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000199] (manipulator) JobQueued: {'identifier': 'manipulator', 'dependencies': OrderedDict()}
+[0.000240] (manipulator) JobStarted: {'identifier': 'manipulator'}
+[0.098194] (-) TimerEvent: {}
+[0.198767] (-) TimerEvent: {}
+[0.299348] (-) TimerEvent: {}
+[0.399874] (-) TimerEvent: {}
+[0.500310] (-) TimerEvent: {}
+[0.601322] (-) TimerEvent: {}
+[0.701750] (-) TimerEvent: {}
+[0.802394] (-) TimerEvent: {}
+[0.902783] (-) TimerEvent: {}
+[1.003122] (-) TimerEvent: {}
+[1.103543] (-) TimerEvent: {}
+[1.204057] (-) TimerEvent: {}
+[1.304565] (-) TimerEvent: {}
+[1.380607] (manipulator) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/manipulator', 'build', '--build-base', '/home/juan_c/ros2_ws/build/manipulator/build', 'install', '--record', '/home/juan_c/ros2_ws/build/manipulator/install.log', '--single-version-externally-managed'], 'cwd': '/home/juan_c/ros2_ws/src/manipulator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'es:en', 'USER': 'juan_c', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/juan_c', 'OLDPWD': '/home/juan_c/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'SYSTEMD_EXEC_PID': '2261', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'iron', 'LOGNAME': 'juan_c', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juan_c', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juan:@/tmp/.ICE-unix/2044,unix/juan:/tmp/.ICE-unix/2044', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9b560d9b_e2e9_42c9_94b3_a67d2b3533cd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.INQBC2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.222', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/juan_c/ros2_ws/build/manipulator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/juan_c/ros2_ws/build/manipulator/prefix_override:/home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.405188] (-) TimerEvent: {}
+[1.505657] (-) TimerEvent: {}
+[1.606104] (-) TimerEvent: {}
+[1.706717] (-) TimerEvent: {}
+[1.807115] (-) TimerEvent: {}
+[1.907722] (-) TimerEvent: {}
+[1.933471] (manipulator) StdoutLine: {'line': b'running egg_info\n'}
+[1.939358] (manipulator) StdoutLine: {'line': b'creating ../../build/manipulator/manipulator.egg-info\n'}
+[1.939627] (manipulator) StdoutLine: {'line': b'writing ../../build/manipulator/manipulator.egg-info/PKG-INFO\n'}
+[1.939831] (manipulator) StdoutLine: {'line': b'writing dependency_links to ../../build/manipulator/manipulator.egg-info/dependency_links.txt\n'}
+[1.940009] (manipulator) StdoutLine: {'line': b'writing entry points to ../../build/manipulator/manipulator.egg-info/entry_points.txt\n'}
+[1.940156] (manipulator) StdoutLine: {'line': b'writing requirements to ../../build/manipulator/manipulator.egg-info/requires.txt\n'}
+[1.940302] (manipulator) StdoutLine: {'line': b'writing top-level names to ../../build/manipulator/manipulator.egg-info/top_level.txt\n'}
+[1.940446] (manipulator) StdoutLine: {'line': b"writing manifest file '../../build/manipulator/manipulator.egg-info/SOURCES.txt'\n"}
+[1.941255] (manipulator) StdoutLine: {'line': b"reading manifest file '../../build/manipulator/manipulator.egg-info/SOURCES.txt'\n"}
+[1.943254] (manipulator) StdoutLine: {'line': b"writing manifest file '../../build/manipulator/manipulator.egg-info/SOURCES.txt'\n"}
+[1.943817] (manipulator) StdoutLine: {'line': b'running build\n'}
+[1.944018] (manipulator) StdoutLine: {'line': b'running build_py\n'}
+[1.944609] (manipulator) StdoutLine: {'line': b'creating /home/juan_c/ros2_ws/build/manipulator/build\n'}
+[1.944875] (manipulator) StdoutLine: {'line': b'creating /home/juan_c/ros2_ws/build/manipulator/build/lib\n'}
+[1.945015] (manipulator) StdoutLine: {'line': b'creating /home/juan_c/ros2_ws/build/manipulator/build/lib/manipulator\n'}
+[1.945464] (manipulator) StdoutLine: {'line': b'copying manipulator/__init__.py -> /home/juan_c/ros2_ws/build/manipulator/build/lib/manipulator\n'}
+[1.946037] (manipulator) StdoutLine: {'line': b'running install\n'}
+[1.946972] (manipulator) StdoutLine: {'line': b'running install_lib\n'}
+[1.948390] (manipulator) StdoutLine: {'line': b'creating /home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages/manipulator\n'}
+[1.948673] (manipulator) StdoutLine: {'line': b'copying /home/juan_c/ros2_ws/build/manipulator/build/lib/manipulator/__init__.py -> /home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages/manipulator\n'}
+[1.949936] (manipulator) StdoutLine: {'line': b'byte-compiling /home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages/manipulator/__init__.py to __init__.cpython-310.pyc\n'}
+[1.950457] (manipulator) StdoutLine: {'line': b'running install_data\n'}
+[1.951909] (manipulator) StdoutLine: {'line': b'creating /home/juan_c/ros2_ws/install/manipulator/share/ament_index\n'}
+[1.952119] (manipulator) StdoutLine: {'line': b'creating /home/juan_c/ros2_ws/install/manipulator/share/ament_index/resource_index\n'}
+[1.952509] (manipulator) StdoutLine: {'line': b'creating /home/juan_c/ros2_ws/install/manipulator/share/ament_index/resource_index/packages\n'}
+[1.952960] (manipulator) StdoutLine: {'line': b'copying resource/manipulator -> /home/juan_c/ros2_ws/install/manipulator/share/ament_index/resource_index/packages\n'}
+[1.953475] (manipulator) StdoutLine: {'line': b'copying package.xml -> /home/juan_c/ros2_ws/install/manipulator/share/manipulator\n'}
+[1.953969] (manipulator) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.958021] (manipulator) StdoutLine: {'line': b'Copying ../../build/manipulator/manipulator.egg-info to /home/juan_c/ros2_ws/install/manipulator/lib/python3.10/site-packages/manipulator-0.0.0-py3.10.egg-info\n'}
+[1.959907] (manipulator) StdoutLine: {'line': b'running install_scripts\n'}
+[2.003394] (manipulator) StdoutLine: {'line': b"writing list of installed files to '/home/juan_c/ros2_ws/build/manipulator/install.log'\n"}
+[2.008269] (-) TimerEvent: {}
+[2.048144] (manipulator) CommandEnded: {'returncode': 0}
+[2.088764] (manipulator) JobEnded: {'identifier': 'manipulator', 'rc': 0}
+[2.090388] (-) EventReactorShutdown: {}
